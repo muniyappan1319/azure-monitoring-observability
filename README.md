@@ -2,8 +2,13 @@
 
 ## Overview
 This repository demonstrates real-time monitoring of Azure resources using
-Azure Monitor. It includes metrics, logs, alerts, and action groups to ensure
+Azure Monitor. It focuses on metrics, logs, alerts, and action groups to ensure
 availability and performance of cloud infrastructure.
+
+This project is designed to represent real-world monitoring scenarios for
+Azure Cloud Engineer and Administrator roles.
+
+---
 
 ## Services Used
 - Azure Monitor
@@ -12,8 +17,29 @@ availability and performance of cloud infrastructure.
 - Action Groups
 - Azure Virtual Machines
 
-## Real-Time Use Case
-Monitoring Azure Virtual Machines for performance and availability issues.
+---
+
+## Real-Time Use Case: Azure VM Monitoring
+
+### Objective
+Monitor Azure Virtual Machines and trigger alerts when performance or
+availability thresholds are breached.
+
+### Monitoring Scope
+- CPU utilization
+- Memory usage
+- VM availability
+- Disk performance
+- Platform metrics and logs
+
+---
+
+## Repository Structure
+- VM monitoring documentation
+- Azure CLI scripts for enabling monitoring
+- Architecture and monitoring flow
+
+---
 
 ## Author
-Muniyappan – Azure Cloud Engineer
+Muni – Azure Cloud Engineer
